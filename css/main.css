@@ -3,27 +3,32 @@ ul {
   margin: 0;
   padding: 0;
 }
+input {
+  outline: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
 
 a {
   color: #000;
   text-decoration: none;
 }
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #666;
+}
 
 body {
   font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   margin: 0;
-}
-
-.header {
-  font-family: "Muli", sans-serif;
-  position: fixed;
-  width: 100%;
-  background: #e5cfc2;
-  z-index: 10;
-  height: 8vh;
 }
 
 .container {
@@ -33,216 +38,35 @@ h1 {
 }
 
 .header__wrapper {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-size: 20px;
-  height: 8vh;
-}
-
-.header__navbar {
-  display: flex;
-  width: 400px;
   justify-content: space-between;
-  text-transform: uppercase;
+  padding: 10px;
 }
-
-.header__logo {
-  font-size: 30px;
-}
-
-.promo__title {
-  font-size: 60px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 10px;
+.header__menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .promo {
-  background: url("http://dkcoder.info/i-am-dancer/img/dancer.jpg") no-repeat;
-  height: 100vh;
+  /* background: url("http://dkcoder.info/i-am-dancer/img/dancer.jpg") no-repeat; */
+  background: url("../image/ballerina-2878011_1920.jpg") no-repeat;
   box-sizing: border-box;
-  padding-top: 350px;
+
   font-family: "Muli", sans-serif;
   background-position: center;
 }
-
-.numbers {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0;
-}
-
-.numbers__item {
-  text-align: center;
-}
-
-.numbers__value {
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.numbers__title {
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-.numbers__discription {
-  display: none;
-}
-
-.differences {
-  padding: 80px 0;
-
-  background: #f6f6f6;
-}
-
-.differences__title {
-  font-size: 50px;
-  margin-bottom: 65px;
-  text-align: center;
-}
-
-.differences__box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 65%;
-
-  margin: 0 auto;
-}
-
-.differences__text {
-  text-align: center;
-  display: block;
-  font-size: 20px;
-}
-
-.teachers {
-  padding: 50px 0;
-}
-
-.teachers__title {
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.teachers__together {
+.promo__wrapper {
   display: flex;
   align-items: center;
-  height: 350px;
+  justify-content: start;
+  height: 100vh;
 }
-
-.teachers__photo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.teachers__name {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.teachers__icon {
-  border-radius: 100%;
-}
-
-.teachers__photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
-  margin: 0 auto;
-}
-
-.teachers__discription {
-  text-align: center;
-}
-
-.group-first {
-  background: #f6f6f6;
-}
-
-.group__wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.group__item {
-  display: flex;
-  flex-direction: column;
-  padding: 70px 0;
-}
-
-.groups__title {
-  text-align: center;
-}
-
-.groups__title-text {
-  text-align: center;
-  width: 600px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.group__body {
-  display: flex;
-  justify-content: space-between;
-}
-
-.group__image {
-}
-
-.group__image-pict {
-  width: 550px;
-}
-
-.group__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 450px;
-}
-
-.group__text {
-  text-align: jastify;
-}
-
-.group__down {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.group__down-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.group__order-title {
-  margin-right: 20px;
-  margin-bottom: 0;
-}
-
-.group__order {
-  width: 250px;
-  margin: 0;
-}
-
-.group__price {
-  margin: 0;
-}
-
-.group__btn {
-  width: 200px;
-  height: 50px;
-  background: #191d2c;
-  color: white;
-  border: none;
-  margin: 20px 0;
+.promo__title {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+  font-size: 80px;
+  color: #520d10;
 }
 
 .form__wrapper,
@@ -253,21 +77,6 @@ h1 {
 .footer {
   padding: 30px 0px;
   background: rgb(25, 29, 44);
-}
-
-.footer__all {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__logo-item {
-  font-size: 30px;
-  color: white;
-}
-
-.footer__media-link {
-  font-size: 30px;
-  color: white;
 }
 
 .form {
@@ -281,123 +90,4 @@ h1 {
   padding: 10px;
   width: 50%;
   margin: 15px auto;
-}
-
-@media (min-width: 1151px) {
-  .group__body {
-    justify-content: space-around;
-  }
-}
-
-@media (max-width: 1150px) {
-  .group__body {
-    flex-direction: column;
-  }
-
-  .group__image-pict {
-    margin: 35px 0;
-  }
-
-  .group__down,
-  .group__down-left {
-    flex-direction: column;
-  }
-
-  .group__price {
-    margin: 20px 0;
-  }
-
-  .group__text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 790px) {
-  .group__body {
-    flex-direction: column;
-  }
-
-  .group__image-pict {
-    width: 100%;
-    margin: 20px 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .header {
-    padding-bottom: 35px;
-    text-align: center;
-  }
-
-  .header__phone {
-    justify-content: center !important;
-  }
-}
-
-@media (max-width: 714px) {
-  /* .teachers {
-        height: 1250px;
-    } */
-  .teachers__title {
-    font-size: 40px;
-  }
-
-  .groups__title-text {
-    width: auto;
-  }
-
-  .group__image-pict {
-    width: 100%;
-    margin: 20px 0;
-  }
-
-  .form input {
-    width: 90%;
-  }
-
-  .group__btn {
-    margin: 20px auto;
-  }
-}
-
-@media (max-width: 655px) {
-  .differences__box {
-    width: 100%;
-  }
-
-  .group__down {
-    flex-direction: column;
-  }
-
-  .group__down-left {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 576px) {
-  .promo__title {
-    font-size: 45px;
-  }
-
-  .numbers__title {
-    font-size: 15px;
-  }
-
-  .teachers__title {
-    font-size: 30px;
-  }
-
-  .footer__all {
-    flex-direction: column;
-  }
-
-  .group__body {
-    flex-direction: row;
-  }
-}
-
-@media (max-width: 375px) {
-  .teachers {
-    height: 935px;
-  }
 }
