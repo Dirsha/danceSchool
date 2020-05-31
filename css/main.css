@@ -1,437 +1,403 @@
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 body {
-
-    font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .header {
-    font-family: 'Muli', sans-serif;
-    position: fixed;
-    width: 100%;
-    background: #e5cfc2;
-    z-index: 10;
-    height: 8vh;
+  font-family: "Muli", sans-serif;
+  position: fixed;
+  width: 100%;
+  background: #e5cfc2;
+  z-index: 10;
+  height: 8vh;
 }
 
 .container {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 1500px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1500px;
 }
 
 .header__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    height: 8vh;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  height: 8vh;
 }
 
 .header__navbar {
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    text-transform: uppercase;
-
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .header__logo {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .promo__title {
-    font-size: 60px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 .promo {
-    background: url('http://dkcoder.info/i-am-dancer/img/dancer.jpg') no-repeat;
-    height: 100vh;
-    box-sizing: border-box;
-    padding-top: 350px;
-    font-family: 'Muli', sans-serif;
-    background-position: center;
+  background: url("http://dkcoder.info/i-am-dancer/img/dancer.jpg") no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 350px;
+  font-family: "Muli", sans-serif;
+  background-position: center;
 }
 
 .numbers {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
 }
 
 .numbers__item {
-    text-align: center;
-
+  text-align: center;
 }
 
 .numbers__value {
-    font-weight: bold;
-    font-size: 35px;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .numbers__title {
-    text-transform: uppercase;
-    font-size: 18px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 .numbers__discription {
-    display: none;
+  display: none;
 }
 
 .differences {
-    padding: 80px 0;
+  padding: 80px 0;
 
-    background: #f6f6f6;
+  background: #f6f6f6;
 }
 
 .differences__title {
-    font-size: 50px;
-    margin-bottom: 65px;
-    text-align: center;
+  font-size: 50px;
+  margin-bottom: 65px;
+  text-align: center;
 }
 
 .differences__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
 
-
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .differences__text {
-    text-align: center;
-    display: block;
-    font-size: 20px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
 }
 
 .teachers {
-
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .teachers__title {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .teachers__together {
-    display: flex;
-    align-items: center;
-    height: 350px;
+  display: flex;
+  align-items: center;
+  height: 350px;
 }
 
 .teachers__photo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .teachers__name {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .teachers__icon {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 .teachers__photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    margin: 0 auto;
-}
-
-.teachers__photo--1 {
-    background: url('../assets/img/bunas.jpg');
-    background-size: 120px 120px;
-}
-
-.teachers__photo--2 {
-    background: url('../assets/img/zubova.jpg');
-    background-size: 150px 120px;
-    background-position: center;
-}
-
-.teachers__photo--3 {
-    background: url('../assets/img/karpenko.jpg');
-    background-size: 120px 120px;
-}
-
-.teachers__photo-4 {
-    background: url('../assets/img/panasik.jpg');
-    background-size: 120px 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: 0 auto;
 }
 
 .teachers__discription {
-    text-align: center;
+  text-align: center;
 }
 
 .group-first {
-    background: #f6f6f6;
+  background: #f6f6f6;
 }
 
 .group__wrapper {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .group__item {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
 }
 
 .groups__title {
-    text-align: center;
+  text-align: center;
 }
 
 .groups__title-text {
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .group__body {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.group__image {}
+.group__image {
+}
 
 .group__image-pict {
-    width: 550px;
+  width: 550px;
 }
 
 .group__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
 }
 
 .group__text {
-    text-align: jastify;
-
+  text-align: jastify;
 }
 
 .group__down {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .group__down-left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .group__order-title {
-    margin-right: 20px;
-    margin-bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 0;
 }
 
 .group__order {
-    width: 250px;
-    margin: 0;
+  width: 250px;
+  margin: 0;
 }
 
 .group__price {
-    margin: 0;
+  margin: 0;
 }
 
 .group__btn {
-    width: 200px;
-    height: 50px;
-    background: #191d2c;
-    color: white;
-    border: none;
-    margin: 20px 0;
+  width: 200px;
+  height: 50px;
+  background: #191d2c;
+  color: white;
+  border: none;
+  margin: 20px 0;
 }
 
 .form__wrapper,
 .contacts {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .footer {
-    padding: 30px 0px;
-    background: rgb(25, 29, 44)
+  padding: 30px 0px;
+  background: rgb(25, 29, 44);
 }
 
 .footer__all {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo-item {
-    font-size: 30px;
-    color: white;
+  font-size: 30px;
+  color: white;
 }
 
 .footer__media-link {
-
-    font-size: 30px;
-    color: white
+  font-size: 30px;
+  color: white;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
 }
 
 .form input {
-    padding: 10px;
-    width: 50%;
-    margin: 15px auto;
+  padding: 10px;
+  width: 50%;
+  margin: 15px auto;
 }
 
 @media (min-width: 1151px) {
-    .group__body {
-        justify-content: space-around;
-    }
+  .group__body {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 1150px) {
-    .group__body {
-        flex-direction: column;
-    }
+  .group__body {
+    flex-direction: column;
+  }
 
-    .group__image-pict {
-        margin: 35px 0;
-    }
+  .group__image-pict {
+    margin: 35px 0;
+  }
 
-    .group__down,
-    .group__down-left {
-        flex-direction: column;
-    }
+  .group__down,
+  .group__down-left {
+    flex-direction: column;
+  }
 
-    .group__price {
-        margin: 20px 0;
-    }
+  .group__price {
+    margin: 20px 0;
+  }
 
-    .group__text {
-        text-align: center;
-    }
+  .group__text {
+    text-align: center;
+  }
 }
 
-
 @media (max-width: 790px) {
-    .group__body {
-        flex-direction: column;
-    }
+  .group__body {
+    flex-direction: column;
+  }
 
-    .group__image-pict {
-        width: 100%;
-        margin: 20px 0;
-    }
+  .group__image-pict {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
 
 @media (max-width: 768px) {
-    .header {
-        padding-bottom: 35px;
-        text-align: center;
-    }
+  .header {
+    padding-bottom: 35px;
+    text-align: center;
+  }
 
-
-    .header__phone {
-        justify-content: center !important;
-    }
+  .header__phone {
+    justify-content: center !important;
+  }
 }
 
 @media (max-width: 714px) {
-
-    /* .teachers {
+  /* .teachers {
         height: 1250px;
     } */
-    .teachers__title {
-        font-size: 40px;
-    }
+  .teachers__title {
+    font-size: 40px;
+  }
 
-    .groups__title-text {
-        width: auto;
-    }
+  .groups__title-text {
+    width: auto;
+  }
 
-    .group__image-pict {
-        width: 100%;
-        margin: 20px 0;
-    }
+  .group__image-pict {
+    width: 100%;
+    margin: 20px 0;
+  }
 
-    .form input {
-        width: 90%;
-    }
+  .form input {
+    width: 90%;
+  }
 
-    .group__btn {
-        margin: 20px auto;
-    }
+  .group__btn {
+    margin: 20px auto;
+  }
 }
 
 @media (max-width: 655px) {
-    .differences__box {
-        width: 100%;
-    }
+  .differences__box {
+    width: 100%;
+  }
 
-    .group__down {
-        flex-direction: column;
-    }
+  .group__down {
+    flex-direction: column;
+  }
 
-    .group__down-left {
-        flex-direction: column;
-    }
+  .group__down-left {
+    flex-direction: column;
+  }
 }
 
-
 @media (max-width: 576px) {
-    .promo__title {
-        font-size: 45px;
-    }
+  .promo__title {
+    font-size: 45px;
+  }
 
-    .numbers__title {
-        font-size: 15px;
-    }
+  .numbers__title {
+    font-size: 15px;
+  }
 
-    .teachers__title {
-        font-size: 30px;
-    }
+  .teachers__title {
+    font-size: 30px;
+  }
 
-    .footer__all {
-        flex-direction: column;
-    }
+  .footer__all {
+    flex-direction: column;
+  }
 
-    .group__body {
-        flex-direction: row;
-    }
+  .group__body {
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 375px) {
-
-    .teachers {
-        height: 935px;
-    }
+  .teachers {
+    height: 935px;
+  }
 }
