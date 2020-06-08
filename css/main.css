@@ -27,7 +27,6 @@ a:hover {
 }
 
 body {
-  font-family: "Roboto Slab", serif;
   margin: 0;
   padding: 0;
 }
@@ -51,19 +50,21 @@ li {
   justify-content: space-around;
   align-items: center;
   min-height: 7vh;
-  background-color: #51d0de;
+  background-color: #828184;
   position: relative;
 }
 .nav-logo {
-  color: #bf4aa8;
-  text-transform: uppercase;
+  color: #fff;
+
   font-size: 42px;
   letter-spacing: 6px;
+  font-family: "Dancing Script";
 }
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 45%;
+  font-family: "Dancing Script", cursive;
 }
 .nav-link {
   padding-bottom: 4px;
@@ -73,9 +74,7 @@ li {
   font-weight: 700;
   transition: linear 0.3s;
 }
-.nav-links a:hover {
-  border-bottom: 2px solid #bf4aa8;
-}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -107,7 +106,7 @@ li {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    background-color: #51d0de;
+    background-color: #828184;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -157,6 +156,7 @@ li {
   font-weight: 500;
   font-size: 80px;
   color: #520d10;
+  font-family: "Dancing Script", cursive;
 }
 .numbers {
   padding: 50px 0px 50px 0px;
@@ -166,13 +166,15 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 }
 .numbers__value {
-  font-size: 25px;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 .numbers__title {
   text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 .differences__box {
   justify-content: center;
@@ -182,19 +184,25 @@ li {
   text-align: center;
   padding-bottom: 50px;
   font-size: 30px;
-  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 .differences__text {
   text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 .direction__title__wrapper {
   justify-content: center;
 }
 .direction__title_item {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .direction__wrapper {
@@ -213,23 +221,30 @@ li {
 }
 .direction__text__title {
   text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 .direction__discription {
   text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .team__title__wrapper {
   justify-content: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 .team__title__item {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
   font-size: 30px;
   font-weight: 800;
 }
 
 .team__item {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  font-family: "Dancing Script", cursive;
 }
 
 .team__wrapper {
@@ -250,7 +265,7 @@ li {
 
 .footer {
   padding: 30px 0px;
-  background: rgb(25, 29, 44);
+  background: #edecef;
 }
 .prefooter__wrapper {
   justify-content: space-between;
@@ -260,32 +275,54 @@ li {
 .prefooter__title__wrapper {
   justify-content: center;
 }
+.prefooter__contacts__title {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  font-weight: 700;
+}
+.prefooter__phone {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.prefooter__contacts__locatin {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.prefooter__contacts__schedule {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
 .prefooter__title__item {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+  padding-top: 50px;
   font-size: 30px;
   font-weight: 800;
+  font-family: "Dancing Script", cursive;
 }
 .form {
   display: flex;
   flex-direction: column;
   height: 100%;
-
   border-radius: 10px;
   padding: 20px;
   align-items: center;
-  background-color: #cfcfc5;
+  border: 2px solid #828184;
+  font-family: "Dancing Script", cursive;
 }
 .form__title {
   text-align: center;
 }
 
-.form input {
+.form__input {
   padding: 10px;
   width: 80%;
   margin: 15px auto;
   border-radius: 10px;
+  border: 1px solid #828184;
 }
+
+input::-webkit-input-placeholder {
+  color: #adadad;
+}
+
 @media (max-width: 991px) {
   .direction__wrapper--yang {
     flex-direction: column-reverse;
